@@ -1,3 +1,49 @@
-body{
-background-color:green;
+.container{
+	max-width: 1200px;
+	margin: 0 auto ;
+}
+
+ul{
+	padding:0;
+}
+
+li{
+	list-style-type: none;
+}
+
+
+.languages{
+	display: flex;
+	justify-content: center;
+}
+
+.languages li{
+	margin: 10px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.popular-list{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.pupular-item{
+	font-size: 10px;
+	margin: 20px;
+	padding-right: 10px;
+	text-align: center;	
+}
+.popular-rank{
+	text-align: center;
+	padding-bottom: 10px;
+}
+.space-list-items{
+	margin-bottom: 30px;
+	text-align: center;
+}
+.avatar{
+	width: 150px;
+	border-radius: 50%;
 }
